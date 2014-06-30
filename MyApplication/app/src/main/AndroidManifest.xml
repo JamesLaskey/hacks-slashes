@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hacksnslashes" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.hacksnslashes.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hacksnslashes.SpellCast"
+            android:label="@string/title_activity_spell_cast" >
+        </activity>
+        <activity
+            android:name="com.hacksnslashes.CreateSpell"
+            android:label="@string/title_activity_create_spell" >
+        </activity>
+    </application>
+
+</manifest>

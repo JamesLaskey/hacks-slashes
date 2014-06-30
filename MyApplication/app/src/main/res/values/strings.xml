@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hacks \'n Slashes</string>
+    <string name="make_spell">Prepare to draw your spell shape!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_spell_cast">Cast Spell</string>
+    <string name="title_activity_create_spell">Create New Spell</string>
+    <string name="make_spell_begin_button">Draw!</string>
+
+</resources>
